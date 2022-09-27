@@ -2,7 +2,7 @@
 from pathlib import Path
 BASE_DIR = Path('pybert')
 config = {
-    'raw_data_path': '/home/jytang/NLP/Engineering/Bert-Multi-Label-Text-Classification-master/pybert/dataset/processed/contentType_dataset.txt',
+    'raw_data_path': 'pybert/dataset/processed/contentType_dataset.txt',
     # 'test_path': '/home/jytang/NLP/Engineering/Bert-Multi-Label-Text-Classification-master/pybert/dataset/processed/subject_dataset.txt',
 
     'data_dir': BASE_DIR / 'dataset',

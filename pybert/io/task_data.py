@@ -66,7 +66,7 @@ class TaskData(object):
         :return:
         '''
         print("read data ...")
-        with open('/home/jytang/NLP/Engineering/Bert-Multi-Label-Text-Classification-master/pybert/dataset/processed/内容类型_标签.txt', 'r', encoding="utf-8") as fp:
+        with open('pybert/dataset/processed/内容类型_标签.txt', 'r', encoding="utf-8") as fp:
             labels = fp.read().strip().split("\n")
         self.tag2id = {}
         self.id2tag = {}

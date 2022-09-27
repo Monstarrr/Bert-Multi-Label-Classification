@@ -54,7 +54,7 @@ class BertProcessor(object):
 
     def get_labels(self):
         """Gets the list of labels for this data set."""
-        with open('/home/jytang/NLP/Engineering/Bert-Multi-Label-Text-Classification-master/pybert/dataset/processed/内容类型_标签.txt', 'r', encoding="utf-8") as fp:
+        with open('pybert/dataset/processed/内容类型_标签.txt', 'r', encoding="utf-8") as fp:
             labels = fp.read().strip().split("\n")
         print(len(labels))
         return labels
